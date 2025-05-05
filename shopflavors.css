@@ -1,0 +1,167 @@
+@charset "utf-8";
+body {
+    background-image: url("../Images/bgimage_optimized.png");
+    background-size: cover;
+    font-family: "Times New Roman", Times, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    background-color: transparent;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header {
+    position: relative;
+    text-align: center;
+    padding: 24px;
+}
+
+.logo {
+    position: absolute;
+    top: 30px;
+    left: -190px;
+}
+
+.logo img {
+    width: 180px;
+    height: auto;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: dimgray;
+}
+
+.header {
+    color: crimson;
+    text-align: left; 
+}
+
+.content {
+    padding: 0;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: cornflowerblue;
+    padding: 0;
+}
+
+#topnav ul {
+    list-style: none;
+    margin: 60px;
+    padding: ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#topnav li {
+    display: inline-block;
+}
+
+#topnav a {
+    float: left;
+    display: block;
+    color: dimgray;
+    text-align: center;
+    padding: 66px 60px;
+    text-decoration: none;
+}
+
+#topnav li a {
+    border: 3px solid #000000;
+    border-radius: 120px;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: none;
+    background-color: none;
+    transition: all 0.3s ease-in-out;
+    margin: 20px;
+}
+
+#topnav li a:hover {
+    background-color: #000000;
+    color: white;
+}
+
+#topnav2 {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+#topnav2 ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+#topnav2 li {
+    display: inline-block;
+}
+
+#topnav2 a {
+    display: block;
+    color: dimgray;
+    text-align: center;
+    padding: 20px 40px;
+    text-decoration: none;
+}
+
+.topnav li:hover {
+    display: block;
+    position: relative;
+    background-color: #CBDD57;
+    padding: 10px;
+}
+
+#topnav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: none;
+    padding: 10 40px;
+}
+
+#topnav img {
+    height: 90px;
+    margin-right: 20px;
+}
+
+#topnav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.simple-text {
+    text-align: center;
+    margin: 100px auto 20px auto;
+    width: 60%;
+    font-size: 18px;
+    color: black;
+    border: none;
+    background: none;
+    padding: 10px;
+}
+
+* {
+  box-sizing: border-box;
+}
+.gallery-container {
+  overflow: hidden;
+}
