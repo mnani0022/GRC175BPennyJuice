@@ -1,6 +1,6 @@
 @charset "utf-8";
 body {
-    background-image: url("../Images/bgimage_optimized.png");
+    background-image: url("bgimage_optimized.png");
     background-size: cover;
     font-family: "Times New Roman", Times, Helvetica, Arial, sans-serif;
     margin: 0;
